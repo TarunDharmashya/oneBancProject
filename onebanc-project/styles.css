@@ -1,0 +1,463 @@
+body{
+  background-color: #0367d1;
+  color: #fff;
+  margin: 0 ;
+  padding: 2%;
+}
+
+
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+.form{
+  background-color: #004da3;
+  font-size: 1.5rem;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+}
+.icon1,.icons2,.icons3{
+  transform: scale(2);
+}
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+
+  font-family:sans-serif cursive;
+  text-align: left;
+  width:600px;
+  display:inline-block;
+  position:relative;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+.copyright{
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+@media (max-width:640px) {
+  body{
+    background-color: #0367d1;
+  }
+  .container-right,.large-img,.small-img1,.title-content{
+    display: none;
+  }
+  .container-left{
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+  }
+  .title-img{
+    height: 80px;
+    width: 250px;
+    margin: 10px;
+    padding: 0;
+  }
+  .title-content1{
+    margin: 25px 0;
+  }
+  .icons1{
+    transform: scale(2);
+  }
+  .form{
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .title-text,#text{
+    font-size: 2.5rem;
+  }
+  .small-img-div{
+    padding-top: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+  .icons1{
+    width:20px;
+    height:20px;
+  }
+  #cards1{
+    position: absolute;
+    bottom: 0;
+    left:10%;
+
+  }
+  #payment1{
+    position: absolute;
+    bottom: 10%;
+    left:15%;
+  }
+  #loan1{
+    position: absolute;
+    bottom:20%;
+    left:22.5%;
+  }
+  #support1{
+    position: absolute;
+    bottom: 25%;
+    left:35%;
+  }
+  #rewards1{
+    position: absolute;
+    bottom: 27.5%;
+    left:50%;
+
+  }
+  #savings1{
+    position: absolute;
+    bottom: 25%;
+    left:65%;
+  }
+  #investments1{
+    position: absolute;
+    bottom: 20%;
+    left:77.5%;
+  }
+  #forex1{
+    position: absolute;
+    bottom: 10%;
+    left:85%;
+  }
+  #analytics1{
+    position: absolute;
+    bottom: 0%;
+    left:90%;
+  }
+
+  .qr-code{
+    text-align: center;
+    margin: 25px;
+  }
+  .terms,.copyright{
+    text-align: center;
+  }
+}
+
+@media (min-width:641px) and (max-width:1040px) {
+  body{
+    background-color: #0367d1;
+  }
+  .container-right,.large-img,.icons2,.icon3,.img-span,.small-img,.title-content{
+    display: none;
+  }
+  .title-img{
+    height: 100px;
+    width: 320px;
+    margin: 5% 0 0 0;
+    padding: 0;
+  }
+  .title-text,#text{
+    font-size: 2.5rem;
+  }
+  .title-content1{
+    margin: 30px 0;
+    width: 40%;
+  }
+  .icons1{
+    transform: scale(2);
+  }
+  .form{
+    margin: 30px 0 ;
+    font-size: 1rem;
+    padding: 10px 40px;
+  }
+  .qr-code{
+    text-align: left;
+    margin: 25px 0;
+  }
+  .terms{
+    text-align: left;
+  }
+  .copyright{
+    text-align: left;
+    margin-bottom: 100px;
+  }
+  .small-img1{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 250px;
+    height:200px;
+  }
+  #cards1{
+    position: absolute;
+    top: 55%;
+    right:49%;
+
+  }
+  #payment1{
+    position: absolute;
+    top: 45%;
+    right:51%;
+  }
+  #loan1{
+    position: absolute;
+    top:35%;
+    right:48%;
+  }
+  #support1{
+    position: absolute;
+    top: 27.5%;
+    right:41%;
+  }
+  #rewards1{
+    position: absolute;
+    top: 25%;
+    right:30%;
+
+  }
+  #savings1{
+    position: absolute;
+    top: 28%;
+    right:15%;
+  }
+  #investments1{
+    position: absolute;
+    top:35%;
+    right:6%;
+  }
+  #forex1{
+    position: absolute;
+    top:45%;
+    right:3%;
+  }
+  #analytics1{
+    position: absolute;
+    top:55%;
+    right:4%;
+  }
+
+}
+
+@media (min-width:1041px) {
+  body{
+    background: url(https://photy.org/photos/blue-presentation-background-photy.org.jpg) no-repeat;
+    background-size: cover;
+
+  }
+  .icons1,.small-img-div,.small-img1,.title-content1{
+    display: none;
+  }
+  .container-left{
+    display: inline;
+    position: absolute;
+    width: 45%;
+    padding: 10px 20px;
+  }
+  .container-right{
+    display: inline;
+    float:right;
+    width: 50%;
+  }
+  .title-text{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    margin: 20px 0;
+  }
+  .title-img{
+    width: 300px;
+    height: 90px;
+  }
+  .title-content{
+    width: 60%;
+    padding: 5px;
+    margin: 10px 0 20px 0;
+    font-size: 1.3rem;
+  }
+  #bankman1{
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    height: 75vh;
+  }
+  #bankman2{
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    height: 75vh;
+
+  }
+  .vl {
+  border-left: 1px solid grey;
+  border-style: dashed;
+  height: 85vh;
+  display: inline;
+  position: absolute;
+  top: 20%;
+  left:70%;
+  }
+  .img-span{
+    z-index:2;
+    color:black;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font: cursive;
+  }
+  #span1{
+    position: absolute;
+    left: 53%;
+    top: 100%;
+  }
+  #span2{
+    position: absolute;
+    right: 13%;
+    top: 100%;
+  }
+  .form{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+  .qr-code{
+    margin: 30px auto 20px;
+  }
+  .icons2,.icons3{
+    color:black;
+  }
+  #cards2{
+    position: absolute;
+    top: 17.5%;
+    left:55%;
+
+  }
+  #payment2{
+    position: absolute;
+    top: 25%;
+    left:62.5%;
+  }
+  #loan2{
+    position: absolute;
+    top:35%;
+    left:65%;
+  }
+  #support2{
+    position: absolute;
+    top: 48%;
+    left:66%;
+  }
+  #rewards2{
+    position: absolute;
+    bottom: 37.5%;
+    left:48%;
+
+  }
+  #savings2{
+    position: absolute;
+    top: 50%;
+    left:45%;
+  }
+  #investments2{
+    position: absolute;
+    top:40%;
+    left:42.5%;
+  }
+  #forex2{
+    position: absolute;
+    top:30%;
+    left:43%;
+  }
+  #analytics2{
+    position: absolute;
+    top:20%;
+    left:47%;
+  }
+  #cards3{
+    position: absolute;
+    top: 41%;
+    right:10%;
+
+  }
+  #payment3{
+    position: absolute;
+    top: 32%;
+    right:8%;
+  }
+  #loan3{
+    position: absolute;
+    top:32%;
+    right:12%;
+  }
+  #support3{
+    position: absolute;
+    top: 24%;
+    right:6%;
+  }
+  #rewards3{
+    position: absolute;
+    top: 24%;
+    right:14%;
+
+  }
+  #savings3{
+    position: absolute;
+    top: 24%;
+    right:10%;
+  }
+  #investments3{
+    position: absolute;
+    top:15%;
+    right:15%;
+  }
+  #forex3{
+    position: absolute;
+    top:15%;
+    right:10%;
+  }
+  #analytics3{
+    position: absolute;
+    top:15%;
+    right:5%;
+  }
+
+}
+
+.area {
+  text-align: center;
+  font-size: 6.5em;
+  letter-spacing: -7px;
+  font-weight: 700;
+  color: grey;
+  text-transform: uppercase;
+  transform: scale(3);
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 3px #fff, 0px 0px 5px #fff;
+  transition-timing-function: steps(500);
+}
